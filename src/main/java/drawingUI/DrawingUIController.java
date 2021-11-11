@@ -78,7 +78,7 @@ public class DrawingUIController extends JPanel{
             public void mousePressed(MouseEvent e) {
                 p1 = e.getPoint();
                 //System.out.println(p1);
-                drawPanel.addShapes(sSel.getShape(), p1, cSel.getColor(), cDim.getRadius(), 100);
+                drawPanel.addShapes(sSel.getShape(), p1, cSel.getColor(), cDim.getRadius(), cDim.getHeight());
                 drawPanel.repaint();
                 if (sSel.getShape().equals("Circle")){
                     cirCount = cirCount + 1;

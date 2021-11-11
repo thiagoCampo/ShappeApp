@@ -40,4 +40,7 @@ public class CircleDimensions extends JPanel {
     public int getRadius() {
         return slider.getValue();
     }
+    public int getHeight() {
+        return slider2.getValue();
+    }
 }
